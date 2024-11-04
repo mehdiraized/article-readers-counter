@@ -1,0 +1,168 @@
+/* Reader Counter Box Styles */
+.arc-reader-count {
+	display: inline-flex;
+	align-items: center;
+	padding: 10px 15px;
+	margin: 15px auto;
+	border-radius: 5px;
+	background-color: #f8f9fa;
+	border: 1px solid #e9ecef;
+	font-size: 14px;
+	line-height: 1.4;
+	color: #495057;
+	transition: all 0.3s ease;
+}
+
+.arc-reader-count:hover {
+	background-color: #e9ecef;
+	border-color: #dee2e6;
+}
+
+/* Count Number Styles */
+.arc-count {
+	font-weight: bold;
+	color: #007bff;
+	margin: 0 5px;
+	min-width: 20px;
+	text-align: center;
+	transition: all 0.3s ease;
+}
+
+/* Animation for count updates */
+.arc-count-updating {
+	animation: countUpdate 0.3s ease-in-out;
+}
+
+@keyframes countUpdate {
+	0% {
+		transform: scale(1);
+	}
+	50% {
+		transform: scale(1.2);
+		color: #28a745;
+	}
+	100% {
+		transform: scale(1);
+	}
+}
+
+/* Text Styles */
+.arc-before-text,
+.arc-after-text {
+	color: #6c757d;
+}
+
+/* RTL Support */
+.rtl .arc-reader-count {
+	direction: rtl;
+}
+
+/* Dark Mode Support */
+/* @media (prefers-color-scheme: dark) {
+	.arc-reader-count {
+		background-color: #343a40;
+		border-color: #495057;
+		color: #e9ecef;
+	}
+
+	.arc-reader-count:hover {
+		background-color: #495057;
+		border-color: #6c757d;
+	}
+
+	.arc-count {
+		color: #00b8ff;
+	}
+
+	.arc-before-text,
+	.arc-after-text {
+		color: #adb5bd;
+	}
+} */
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+	.arc-reader-count {
+		font-size: 13px;
+		padding: 8px 12px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.arc-reader-count {
+		font-size: 12px;
+		padding: 6px 10px;
+		margin: 10px 0;
+	}
+}
+
+/* Loading State */
+.arc-reader-count.loading {
+	opacity: 0.7;
+	pointer-events: none;
+}
+
+.arc-reader-count.loading .arc-count {
+	position: relative;
+}
+
+.arc-reader-count.loading .arc-count::after {
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background: linear-gradient(90deg, transparent, #007bff, transparent);
+	position: absolute;
+	bottom: -2px;
+	left: 0;
+	animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+	0% {
+		background-position: -200% 0;
+	}
+	100% {
+		background-position: 200% 0;
+	}
+}
+
+/* Error State */
+.arc-reader-count.error {
+	border-color: #dc3545;
+	background-color: #fff5f5;
+}
+
+.arc-reader-count.error .arc-count {
+	color: #dc3545;
+}
+
+/* Custom Theme Classes */
+.arc-reader-count.theme-minimal {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+.arc-reader-count.theme-boxed {
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arc-reader-count.theme-rounded {
+	border-radius: 25px;
+}
+
+.arc-reader-count.theme-accent {
+	background-color: #007bff;
+	border-color: #0056b3;
+	color: white;
+}
+
+.arc-reader-count.theme-accent .arc-count {
+	color: white;
+}
+
+.arc-reader-count.theme-accent .arc-before-text,
+.arc-reader-count.theme-accent .arc-after-text {
+	color: rgba(255, 255, 255, 0.9);
+}

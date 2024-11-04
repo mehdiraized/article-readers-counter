@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Article Readers Counter\n"
+"POT-Creation-Date: 2024-03-20 12:00+0330\n"
+"PO-Revision-Date: 2024-03-20 12:00+0330\n"
+"Last-Translator: Your Name <your@email.com>\n"
+"Language-Team: Persian\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# Admin Settings Page
+msgid "Article Readers Counter Settings"
+msgstr "تنظیمات نمایش تعداد خوانندگان"
+
+msgid "Article Readers"
+msgstr "تعداد خوانندگان"
+
+msgid "Settings"
+msgstr "تنظیمات"
+
+# General Settings Section
+msgid "General Settings"
+msgstr "تنظیمات عمومی"
+
+msgid "Configure general plugin settings."
+msgstr "تنظیمات عمومی پلاگین را پیکربندی کنید."
+
+msgid "Auto Insert"
+msgstr "درج خودکار"
+
+msgid "Automatically add counter to all posts"
+msgstr "افزودن خودکار شمارنده به همه نوشته‌ها"
+
+msgid "Track Total Views"
+msgstr "ثبت تعداد کل بازدیدها"
+
+msgid "Track and store total view count for each post"
+msgstr "ثبت و ذخیره تعداد کل بازدید برای هر نوشته"
+
+# Display Settings Section
+msgid "Display Settings"
+msgstr "تنظیمات نمایش"
+
+msgid "Customize how the counter appears on your site."
+msgstr "نحوه نمایش شمارنده در سایت را شخصی‌سازی کنید."
+
+msgid "Before Text"
+msgstr "متن قبل"
+
+msgid "Text to show before the counter"
+msgstr "متنی که قبل از شمارنده نمایش داده می‌شود"
+
+msgid "After Text"
+msgstr "متن بعد"
+
+msgid "Text to show after the counter"
+msgstr "متنی که بعد از شمارنده نمایش داده می‌شود"
+
+msgid "Counter Theme"
+msgstr "قالب شمارنده"
+
+msgid "Select the display theme for the counter"
+msgstr "قالب نمایش شمارنده را انتخاب کنید"
+
+# Counter Themes
+msgid "Default"
+msgstr "پیش‌فرض"
+
+msgid "Minimal"
+msgstr "ساده"
+
+msgid "Boxed"
+msgstr "جعبه‌ای"
+
+msgid "Rounded"
+msgstr "گرد"
+
+msgid "Accent"
+msgstr "برجسته"
+
+# Advanced Settings Section
+msgid "Advanced Settings"
+msgstr "تنظیمات پیشرفته"
+
+msgid "Advanced settings for performance and cleanup."
+msgstr "تنظیمات پیشرفته برای عملکرد و پاکسازی."
+
+msgid "Refresh Interval"
+msgstr "فاصله بروزرسانی"
+
+msgid "Interval in seconds to refresh the counter (min: 5, max: 60)"
+msgstr "فاصله زمانی بروزرسانی شمارنده به ثانیه (حداقل: 5، حداکثر: 60)"
+
+msgid "Cleanup Interval"
+msgstr "فاصله پاکسازی"
+
+msgid "Interval in seconds to clean up old records (min: 30, max: 300)"
+msgstr "فاصله زمانی پاکسازی رکوردهای قدیمی به ثانیه (حداقل: 30، حداکثر: 300)"
+
+# Shortcode Info
+msgid "Shortcode Usage"
+msgstr "راهنمای شورت‌کد"
+
+msgid "Use this shortcode to display the counter:"
+msgstr "برای نمایش شمارنده از این شورت‌کد استفاده کنید:"
+
+msgid "With custom parameters:"
+msgstr "با پارامترهای سفارشی:"
+
+msgid "Available Parameters:"
+msgstr "پارامترهای موجود:"
+
+msgid "Text before the counter"
+msgstr "متن قبل از شمارنده"
+
+msgid "Text after the counter"
+msgstr "متن بعد از شمارنده"
+
+msgid "Counter theme (default, minimal, boxed, rounded, accent)"
+msgstr "قالب شمارنده (پیش‌فرض، ساده، جعبه‌ای، گرد، برجسته)"
+
+msgid "Custom CSS class"
+msgstr "کلاس CSS سفارشی"
+
+# Preview Section
+msgid "Live Preview"
+msgstr "پیش‌نمایش زنده"
+
+msgid "Currently reading:"
+msgstr "در حال مطالعه:"
+
+msgid "readers"
+msgstr "خواننده"
+
+# Error Messages
+msgid "Error updating counter"
+msgstr "خطا در بروزرسانی شمارنده"
+
+msgid "Invalid post ID"
+msgstr "شناسه نوشته نامعتبر"
+
+msgid "Security check failed"
+msgstr "بررسی امنیتی ناموفق بود"
+
+msgid "Invalid request data"
+msgstr "داده‌های درخواست نامعتبر"
+
+msgid "Failed to update reader record"
+msgstr "خطا در بروزرسانی رکورد خواننده"
+
+# Success Messages
+msgid "Settings saved successfully."
+msgstr "تنظیمات با موفقیت ذخیره شد."
+
+# Widget Title
+msgid "Article Readers Counter Widget"
+msgstr "ابزارک شمارنده خوانندگان نوشته"
+
+msgid "Display current reader count for posts"
+msgstr "نمایش تعداد خوانندگان فعلی نوشته‌ها"
+
+# Widget Settings
+msgid "Title:"
+msgstr "عنوان:"
+
+msgid "Show only on single posts"
+msgstr "نمایش فقط در نوشته‌های تکی"
+
+# Admin Notices
+msgid "Article Readers Counter requires WordPress version 5.0 or higher."
+msgstr "شمارنده خوانندگان نوشته نیاز به وردپرس نسخه 5.0 یا بالاتر دارد."
+
+msgid "Please configure the Article Readers Counter settings."
+msgstr "لطفاً تنظیمات شمارنده خوانندگان نوشته را پیکربندی کنید."
+
+# Support
+msgid "Support Us"
+msgstr "حمایت کنید"
+
+msgid "Thank you for using Article Readers Counter! This plugin is a labor of love, designed to help you to show real-time reader count for posts. If you find it useful, please consider supporting its development."
+msgstr "از استفاده شما از article-readers-counter متشکریم! این افزونه با عشق طراحی شده است تا به شما کمک کند تعداد خوانندگان آنلاین هر مطلب در وردپرس نمایش دهید. اگر آن را مفید می‌دانید، لطفاً در توسعه آن حمایت کنید."
+
+msgid "Your support helps cover the costs of maintaining and improving the plugin, ensuring it remains free and accessible for everyone. Every little bit helps and is greatly appreciated!"
+msgstr "حمایت شما به پوشش هزینه‌های نگهداری و بهبود افزونه کمک می‌کند، و اطمینان می‌دهد که برای همه رایگان و قابل دسترس باقی بماند. هر کمکی ارزشمند است و بسیار قدردانی می‌شود!"
+
+msgid "Thank you for your generosity and support!"
+msgstr "از سخاوت و حمایت شما متشکریم!"
