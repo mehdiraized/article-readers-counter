@@ -183,7 +183,7 @@ This project is licensed under the GPL v2 or later - see the [LICENSE.md](LICENS
 
 For support:
 
-1. Visit our [GitHub Issues](https://github.com/yourusername/article-readers-counter/issues)
+1. Visit our [GitHub Issues](https://github.com/mehdiraized/article-readers-counter/issues)
 2. Create a new issue
 3. Provide detailed information about your problem or suggestion
 
@@ -204,12 +204,6 @@ For support:
 - Added theme customization options
 - Enhanced security measures
 
-## Credits
-
-- Author: [Your Name](https://github.com/yourusername)
-- Contributors: [List of contributors]
-- Icons: [Icon attribution if any]
-
 ## FAQ
 
 **Q: How accurate is the reader count?**  
@@ -229,21 +223,10 @@ A: Yes, you can choose from 5 built-in themes or use custom CSS classes.
 - [ ] API integration
 - [ ] Real-time statistics
 
-## Support Us
+## Donate
 
-If you find this plugin useful, please:
+If you find this plugin useful, please consider supporting its development by [buying me a coffee](https://www.buymeacoffee.com/mehdiraized). Your support helps cover the costs of maintaining and improving the plugin, ensuring it remains free and accessible for everyone. Thank you!
 
-- ⭐ Star this repository
-- 📢 Share it with others
-- 🐛 Report issues
-- 🤝 Contribute to development
+## License
 
-## Contact
-
-- Website: [your-website.com](https://your-website.com)
-- Twitter: [@yourusername](https://twitter.com/yourusername)
-- Email: your@email.com
-
----
-
-Made with ❤️ for the WordPress community
+This plugin is licensed under the GPLv2 or later. For more details, visit [GPL License](https://www.gnu.org/licenses/gpl-2.0.html).
