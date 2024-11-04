@@ -3,8 +3,8 @@
 **Contributors:** mehdiraized  
 **Tags:** thumbnails, media management, image optimization, WordPress plugin, thumbnail remover  
 **Requires at least:** 5.0  
-**Tested up to:** 6.6.1  
-**Stable tag:** 1.1.4  
+**Tested up to:** 6.6.2  
+**Stable tag:** 1.0.1  
 **Requires PHP:** 7.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html
@@ -189,7 +189,7 @@ For support:
 
 ## Changelog
 
-### Version 1.0.0 (2024-03-20)
+### Version 1.0.0
 
 - Initial release
 - 5 display themes
@@ -197,7 +197,7 @@ For support:
 - Auto-update system
 - Complete settings panel
 
-### Version 1.0.1 (2024-03-21)
+### Version 1.0.1
 
 - Performance improvements
 - Bug fixes
