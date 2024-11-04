@@ -11,7 +11,7 @@
 
 Display real-time reader count for WordPress posts with automatic updates.
 
-[🇮🇷 Persian Documentation (مستندات فارسی)](README-fa.md)
+[🇮🇷 Persian Documentation (مستندات فارسی)](Readme-fa.md)
 
 ## Features
 
